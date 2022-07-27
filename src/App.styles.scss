@@ -1,0 +1,23 @@
+.home-logo {
+  position: fixed;
+  top: 0.4rem;
+  left: 1rem;
+  background: url("https://www.mdnsonline.com/img/menu_logo.svg") no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 1rem;
+  background: url("https://www.mdnsonline.com/img/ico_menu.svg") no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  z-index: 2;
+  cursor: pointer;
+}

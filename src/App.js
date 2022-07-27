@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
 
 import Home from "./routes/home/home.component";
@@ -12,6 +12,8 @@ import {
   onAuthStateChangedListener,
   createUserDocumentFromAuth,
 } from "./utils/firebase/firebase.utils";
+import { motion } from "framer-motion";
+import "./App.styles.scss";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -28,15 +30,34 @@ const App = () => {
     return unsubscribe;
   }, [dispatch]);
 
+  const location = useLocation();
+  const [open, setOpen] = useState(false);
+  const animateFrom = { x: -100 };
+  const animateTo = { x: 0 };
   return (
-    <Routes>
-      <Route path="/" element={<Navigation />}>
+    <>
+      {open && (
+        <motion.div
+          initial={animateFrom}
+          animate={animateTo}
+          transition={{ duration: 0.3 }}
+        >
+          <Navigation setOpen={setOpen} />
+        </motion.div>
+      )}
+      {location.pathname === "/" ? (
+        <div className="home-logo" onClick={() => setOpen(!open)} />
+      ) : (
+        <div className="logo" onClick={() => setOpen(!open)} />
+      )}
+      <Routes>
         <Route index element={<Home />} />
         <Route path="shop/*" element={<Shop />} />
-        <Route path="auth" element={<Authentication />} />
+        <Route path="login" element={<Authentication />} />
+        <Route path="signup" element={<Authentication />} />
         <Route path="checkout" element={<Checkout />} />
-      </Route>
-    </Routes>
+      </Routes>
+    </>
   );
 };
 

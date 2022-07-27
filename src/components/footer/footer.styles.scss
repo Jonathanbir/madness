@@ -1,0 +1,74 @@
+.footer-container {
+  display: flex;
+  width: 40%;
+  margin: 50px 30px;
+
+  @media screen and (max-width: 768px) {
+    margin: 30px 10px;
+  }
+
+  .footer-item {
+    width: 200px;
+    @media screen and (max-width: 768px) {
+      margin: 5px;
+    }
+
+    h2 {
+      font-size: 12px;
+      text-align: left;
+      color: #808285;
+
+      @media screen and (max-width: 768px) {
+        font-size: 5px;
+      }
+    }
+
+    p {
+      font-size: 10px;
+      line-height: 0.5rem;
+      color: #9c9ea0;
+    }
+
+    ul {
+      display: flex;
+      padding: 0;
+    }
+
+    .payment_1 {
+      background: url("https://www.mdnsonline.com/img/ico_payment1.svg");
+      background-repeat: no-repeat;
+      width: 23px;
+      height: 19px;
+      margin: auto 2px;
+    }
+
+    .payment_2 {
+      background: url("https://www.mdnsonline.com/img/ico_payment2.svg");
+      background-repeat: no-repeat;
+      width: 23px;
+      height: 19px;
+      margin: auto 2px;
+    }
+    .payment_3 {
+      background: url("https://www.mdnsonline.com/img/ico_payment3.svg");
+      background-repeat: no-repeat;
+      width: 23px;
+      height: 19px;
+      margin: auto 2px;
+    }
+    .payment_4 {
+      background: url("https://www.mdnsonline.com/img/ico_payment4.svg");
+      background-repeat: no-repeat;
+      width: 23px;
+      height: 19px;
+      margin: auto 2px;
+    }
+    .payment_5 {
+      background: url("https://www.mdnsonline.com/img/ico_payment5.svg");
+      background-repeat: no-repeat;
+      width: 23px;
+      height: 19px;
+      margin: auto 2px;
+    }
+  }
+}

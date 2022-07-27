@@ -1,0 +1,24 @@
+.shop-container {
+  display: flex;
+
+  .category-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+
+    @media screen and (max-width: 768px) {
+      width: 95%;
+      grid-template-columns: repeat(2, 1fr);
+      margin: auto;
+      row-gap: 0;
+    }
+  }
+
+  .category-title {
+    font-size: 38px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+}

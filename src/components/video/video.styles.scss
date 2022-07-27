@@ -1,0 +1,13 @@
+video {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 80%;
+  min-height: 100%;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  z-index: -1;
+  -webkit-filter: grayscale(20%);
+}

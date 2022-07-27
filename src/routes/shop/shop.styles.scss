@@ -1,0 +1,26 @@
+.scroll-to-top {
+  position: fixed;
+  width: 42px;
+  height: 42px;
+  background: #808285;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  border-radius: 100px;
+  z-index: 1;
+  -webkit-box-shadow: 0 3px 5px 5px rgb(0 0 0 / 10%);
+  box-shadow: 0 3px 5px 5px rgb(0 0 0 / 10%);
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    background: url("https://www.mdnsonline.com/img/ico_top.svg") no-repeat
+      center;
+    width: 42px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+    display: block;
+  }
+}
