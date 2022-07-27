@@ -1,236 +1,271 @@
 const SHOP_DATA = [
   {
-    title: 'Hats',
+    title: "Shirts",
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25,
+        name: "MADNESS STRIPED SHIRT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Shirts/22SS-SHT-STRIPE-D004_BLUWH/22SS-SHT-STRIPE-D004_BLUWH%20(1)-300x300.jpg",
+        price: 649,
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18,
+        name: "MADNESS PRINTED CHECKER SHIRT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Shirts/22SS-SHT-CHECKER-D001_NVWH/22SS-SHT-CHECKER-D001_NVWH%20(1)-300x300.jpg",
+        price: 829,
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35,
+        name: "MADNESS PATCH CHECKED SHIRT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Shirts/22SS-SHT-CHECKER-D003_BRNBLU/22SS-SHT-CHECKER-D003_BRNBLU%20(1)-300x300.jpg",
+        price: 799,
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25,
+        name: "MADNESS PATCH CHECKED SHIRT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Shirts/22SS-SHT-D001_NV/22SS-SHT-D001_NV%20(1)-300x300.jpg",
+        price: 999,
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18,
+        name: "MADNESS NYLON SHIRT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Shirts/22SS-SHT-STRIPE-D001_GRYWH/22SS-SHT-STRIPE-D001_GRYWH%20(1)-300x300.jpg",
+        price: 729,
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14,
+        name: "MADNESS STRIPED SHIRT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Shirts/22SS-SHT-STRIPE-D005_NVBG/22SS-SHT-STRIPE-D005_NVBG%20(1)-300x300.jpg",
+        price: 729,
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18,
+        name: "MADNESS STRIPED SHIRT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Shirts/22SS-SHT-STRIPE-D002_BLUWH/22SS-SHT-STRIPE-D002_BLUWH%20(1)-300x300.jpg",
+        price: 829,
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14,
+        name: "MADNESS STRIPED SHIRT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Shirts/22SS-SHT-WNS02-D001_BG/22SS-SHT-WNS02-D001_BG%20(1)-300x300.jpg",
+        price: 1199,
       },
       {
         id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16,
+        name: "MADNESS x WIND AND SEA OXFORD SHIRT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Shirts/22SS-SHT-WNS02-D001_GRN/22SS-SHT-WNS02-D001_GRN%20(1)-300x300.jpg",
+        price: 1199,
       },
     ],
   },
   {
-    title: 'Sneakers',
+    title: "Sneakers",
     items: [
       {
         id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        price: 220,
+        name: "MADNESS x MAISON MIHARA YASUHIRO BLAKEY MM11",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2021SS/X%20MIHARA/21SS-SHU-MMY02-MM11-D01_BG/21SS-SHU-MMY02-MM11-D01_BG%20(01)-300x300.jpg",
+        price: 3399,
       },
       {
         id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        price: 280,
+        name: "MADNESS x MAISON MIHARA YASUHIRO BAKER MM05",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2020FW/X%20MIHARA/20FW-SHU-MMY01-MM05-D01_ORN/20FW-SHU-MMY01-MM05-D01_ORN%20(1)-300x300.jpg",
+        price: 3399,
       },
       {
         id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110,
+        name: "MADNESS x MAISON MIHARA YASUHIRO BAKER MM06",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2020FW/X%20MIHARA/20FW-SHU-MMY01-MM06-D01_AG/20FW-SHU-MMY01-MM06-D01_AG%20(1)-300x300.jpg",
+        price: 3399,
       },
       {
         id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        price: 160,
+        name: "MADNESS x MAISON MIHARA YASUHIRO BAKER MM07",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2020SS/X%20MIHARA/20FW-SHU-MMY01-MM07-D01_NV/20FW-SHU-MMY01-MM07-D01_NV%20(1)-300x300.jpg",
+        price: 3399,
       },
       {
         id: 14,
-        name: 'Nike Red High Tops',
-        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        price: 160,
+        name: "MDNS x DANNER MOUNTAIN LIGHT II BOOTS",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/Crossover/DANNER/DANNER_08_03_resize-300x300.JPG",
+        price: 3899,
       },
       {
         id: 15,
-        name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-        price: 160,
+        name: "MDNS x TIMBERLAND 6",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/Crossover/TIMBERLAND/1125M_001_01_resize-300x300.jpg",
+        price: 2190,
       },
       {
         id: 16,
-        name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        price: 190,
+        name: "MDNS x WHITE MOUNTAINEERING FLIP FLOP",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/Crossover/WHITE%20MOUNTAINEERING/2A1A8922_resize-300x300.JPG",
+        price: 599,
       },
       {
         id: 17,
-        name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-        price: 200,
+        name: "MADNESS x TEVA HURRICANE XLT2",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2019SS/X%20TEVA/19SS-SNDL-TV02-D01_GRY/19SS-SNDL-TV02-D01_GRY%20(1)-300x300.JPG",
+        price: 890,
       },
     ],
   },
   {
-    title: 'Jackets',
+    title: "Jackets",
     items: [
       {
         id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125,
+        name: "MADNESS ANORAK",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Jackets/22SS-JKT-ANRK-D001_NV/22SS-JKT-ANRK-D001_NV%20(1)-300x300.jpg",
+        price: 1499,
       },
       {
         id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        price: 90,
+        name: "MADNESS CHECKER ANORAK",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Jackets/22SS-JKT-ANRK-D001_NVGRN/22SS-JKT-ANRK-D001_NVGRN%20(1)-300x300.jpg",
+        price: 1799,
       },
       {
         id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+        name: "MADNESS WINDBREAKER",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Jackets/22SS-JKT-WDBK-D001_BLK/22SS-JKT-WDBK-D001_BLK%20(1)-300x300.jpg",
         price: 90,
       },
       {
         id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        price: 165,
+        name: "MADNESS WINDBREAKER",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Jackets/22SS-JKT-WDBK-D001_CAMO/22SS-JKT-WDBK-D001_CAMO%20(1)-300x300.jpg",
+        price: 1599,
       },
       {
         id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185,
+        name: "MADNESS DENIM JACKET",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Japan%20Collection/22SS-JKT-JJN1-D001_ING/22SS-JKT-JJN1-D001_ING%20(1)-300x300.jpg",
+        price: 3799,
       },
     ],
   },
   {
-    title: 'Womens',
+    title: "Pants",
     items: [
       {
         id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        name: "MADNESS DENIM PANTS",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Pants/22SS-LP-DNM-D001_ING/22SS-LP-DNM-D001_ING%20(1)-300x300.jpg",
         price: 25,
       },
       {
         id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-        price: 20,
+        name: "MADNESS EASY PANT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Pants/22SS-LP-GNL-D001_DG/22SS-LP-GNL-D001_DG%20(1)-300x300.jpg",
+        price: 1199,
       },
       {
         id: 25,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+        name: "MADNESS EASY PANT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Pants/22SS-LP-GNL-D001_BG/22SS-LP-GNL-D001_BG%20(1)-300x300.jpg",
         price: 80,
       },
       {
         id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-        price: 80,
+        name: "MADNESS JOGGER PANT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Pants/22SS-LP-JP-D001_BG/22SS-LP-JP-D001_BG%20(1)-300x300.jpg",
+        price: 959,
       },
       {
         id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-        price: 45,
+        name: "MADNESS JOGGER PANT",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Pants/22SS-LP-JP-D001_BLK/22SS-LP-JP-D001_BLK%20(1)-300x300.jpg",
+        price: 959,
       },
       {
         id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        price: 135,
+        name: "MADNESS PLEATED PANTS",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2021FW/Pants/21FW-LP-GNL-D001_CM/21FW-LP-GNL-D001_CM%20(1)-300x300.jpg",
+        price: 1099,
       },
       {
         id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        price: 20,
+        name: "MADNESS WASHED CHINO PANTS",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Japan%20Collection/22SS-LP-JPT2-D001_BG/22SS-LP-JPT2-D001_BG%20(1)-300x300.jpg",
+        price: 1099,
       },
     ],
   },
   {
-    title: 'Mens',
+    title: "Caps",
     items: [
       {
         id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325,
+        name: "MADMONSTER SNAPBACK",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2020SS/0%20Madmonster/Cap/20SS-MDMON-SB-D001_BG/20SS-MDMON-SB-D001_BG%20(1)-300x300.jpg",
+        price: 299,
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20,
+        name: "MADMONSTER SNAPBACK",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2020SS/0%20Madmonster/Cap/20SS-MDMON-SB-D001_NV/20SS-MDMON-SB-D001_NV%20(1)-300x300.jpg",
+        price: 299,
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25,
+        name: "MADNESS x WIND AND SEA 5 PANEL CAP",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Accessory/22SS-SB-WNS02-D002_BG/22SS-SB-WNS02-D002_BG%20(1)-300x300.jpg",
+        price: 529,
       },
       {
         id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25,
+        name: "MADNESS x WIND AND SEA 5 PANEL CAP",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Accessory/22SS-SB-WNS02-D002_NV/22SS-SB-WNS02-D002_NV%20(1)-300x300.jpg",
+        price: 529,
       },
       {
         id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40,
+        name: "MADNESS x WIND AND SEA 5 PANEL CAP",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Accessory/22SS-SB-WNS02-D002_PPL/22SS-SB-WNS02-D002_PPL%20(1)-300x300.jpg",
+        price: 529,
       },
       {
         id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        price: 25,
+        name: "MADNESS x WIND AND SEA 5 PANEL CAP",
+        imageUrl:
+          "https://www.mdnsonline.com/assets/cache/data/2022SS/Accessory/22SS-SB-WNS02-D001_BG/22SS-SB-WNS02-D001_BG%20(1)-300x300.jpg",
+        price: 529,
       },
     ],
   },

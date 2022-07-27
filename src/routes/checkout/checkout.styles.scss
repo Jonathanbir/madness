@@ -1,0 +1,64 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+
+  .shop-logo {
+    position: relative;
+    top: 30px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background: url("https://www.mdnsonline.com/img/logo-home_2021SSv2.png")
+      no-repeat;
+    width: 150px;
+    height: 70px;
+    background-size: contain;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  .checkout-container {
+    width: 55%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto 0;
+
+    @media screen and (max-width: 768px) {
+      width: 80%;
+    }
+
+    .checkout-header {
+      width: 100%;
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid darkgrey;
+
+      .header-block {
+        text-transform: capitalize;
+        width: 23%;
+        color: #808285;
+        font-weight: 900;
+
+        @media screen and (max-width: 768px) {
+          span {
+            font-size: 12px;
+          }
+        }
+
+        &:last-child {
+          width: 8%;
+        }
+      }
+    }
+
+    .total {
+      margin-top: 30px;
+      margin-left: auto;
+      font-size: 25px;
+      color: #808285;
+    }
+  }
+}
