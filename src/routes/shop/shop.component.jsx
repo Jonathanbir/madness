@@ -6,6 +6,7 @@ import ShopNavigation from "../../components/shop-navegation/shop-navigation.com
 import Category from "../category/category.component";
 import Footer from "../../components/footer/footer.component";
 import { useDispatch } from "react-redux";
+import { setIsCartOpen } from "../../store/cart/cart.action";
 
 import { fetchCategoriesStartAsync } from "../../store/categories/category.action";
 import "./shop.styles.scss";
@@ -17,6 +18,7 @@ const Shop = () => {
   }, []);
 
   useEffect(() => {
+    dispatch(setIsCartOpen(false));
     dispatch(fetchCategoriesStartAsync());
   }, []);
 
